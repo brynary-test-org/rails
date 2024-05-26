@@ -6,5 +6,11 @@ name = "shell"
 [[analyzers]]
 name = "javascript"
 
+  [analyzers.meta]
+  environment = [
+    "jest",
+    "jasmine"
+  ]
+
 [[analyzers]]
 name = "ruby"
